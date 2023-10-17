@@ -6,6 +6,40 @@
   height: 40vmin;
   pointer-events: none;
 }
+.A{
+  height: 660px;
+  width: auto;
+  background: gray;
+  position: relative;
+}
+.B{
+  height: 660px;
+  width: 600px;
+  /* background: gray; */
+  position: absolute;
+  margin-top: -660px;
+  margin-left: 700px;
+}
+.C{
+  margin-top: 100px;
+}
+.D{
+  width: 300px;
+  height: 40px;
+  background: #e8f0fd;
+  border: none;
+  margin-top: 5px;
+}
+label{
+  color: aliceblue;
+}
+.ml{
+  margin-left: 600px;
+}
+.e{
+  height: 500px;
+  width: 1380px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
